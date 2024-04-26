@@ -1,0 +1,10 @@
+:root{
+    --fundo-cor: hsl(30, 54%, 90%);
+    --container-cor: hsl(0, 0%, 100%);
+    --tempo-cor: hsl(330, 100%, 98%);
+    --texto-cor:hsl(30, 10%, 34%);
+    --titulo-cor: hsl(24, 5%, 18%);
+    --tempo-subtitulo-cor:hsl(332, 51%, 32%);
+    --subtitulo-cor: hsl(14, 45%, 36%);
+    --linha-cor: hsl(30, 18%, 87%);
+}

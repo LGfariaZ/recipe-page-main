@@ -1,0 +1,165 @@
+body{
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: var(--fundo-cor);
+    font-size: 16px;
+    color: var(--texto-cor);
+    
+}
+
+.container-receita{
+    background-color: var(--container-cor);
+    max-width: 740px;
+    margin: 122px auto;
+    padding: 42px 42px 32px;
+    border-radius: 20px;
+}
+
+.container-receita .apresentacao .imagem-omelete{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.container-receita .apresentacao .titulo{
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+    font-size: 40px;
+    color: var(--titulo-cor);
+    margin-top: 25px;
+}
+
+.container-receita .apresentacao .descricao{
+    margin-top: 18px;
+    line-height: 24px;
+    
+}
+
+.container-receita .tempo{
+    background-color: var(--tempo-cor);
+    padding: 27px;
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+.container-receita .tempo .tempo-subtitulo{
+    font-size: 20px;
+    color: var(--tempo-subtitulo-cor);
+}
+.container-receita .tempo .lista-tempo{
+    line-height: 32px;
+    margin-left: 24px;
+    margin-top: 9px;
+}
+
+.container-receita .tempo .lista-tempo li,
+.container-receita .ingredientes .lista-ingredientes li,
+.container-receita .instrucoes .lista-instrucoes li{ 
+    padding-left: 16px;
+}
+
+.container-receita .tempo .lista-tempo li span{
+    font-weight: 700;
+}
+
+.container-receita .tempo .lista-tempo li::marker{
+    color: var(--tempo-subtitulo-cor);
+    font-size: 12px;
+}
+
+.subtitulo{
+    font-family: "Young Serif", serif;
+    font-size: 28px;
+    color: var(--subtitulo-cor);
+    font-weight: 400;
+}
+
+.container-receita .ingredientes .subtitulo{
+    margin-top: 24px;
+}
+
+.container-receita .ingredientes .lista-ingredientes{
+    line-height: 32px;
+    margin-left: 23px;
+    margin-top: 14px;
+}
+
+.container-receita .ingredientes .lista-ingredientes li::marker{
+    color: var(--subtitulo-cor);
+    font-size: 12px;
+}
+
+.container-receita .instrucoes{
+    border-top: 1px solid var(--linha-cor);
+    margin-top: 27px;
+}
+
+.container-receita .instrucoes .subtitulo,
+.container-receita .nutrientes .subtitulo{
+    margin-top: 26px;
+}
+
+.container-receita .instrucoes .lista-instrucoes{
+    margin-top: 20px;
+    margin-left: 24px;
+    line-height: 24px;
+}
+
+.container-receita .instrucoes .lista-instrucoes li{
+    margin-top: 8px;
+}
+.container-receita .instrucoes .lista-instrucoes li span{
+    font-weight: 700;
+}
+
+.container-receita .instrucoes .lista-instrucoes li::marker{
+    color: var(--subtitulo-cor);
+    font-weight: 700;
+    font-variant: small-caps;
+}
+
+.container-receita .nutrientes{
+    border-top: 1px solid var(--linha-cor);
+    margin-top: 30px;
+}
+
+.container-receita .nutrientes .tabela-nutrientes{
+    width: 100%;
+    margin-top: 20px;
+    /* padding-left: 30px;
+    padding-right: 45px; */
+}
+.container-receita .nutrientes .tabela-nutrientes caption{
+    text-align: left;
+    margin-bottom: 16px;
+}
+
+.container-receita .nutrientes .tabela-nutrientes td{
+    padding: 12px 45px 12px 30px;
+    border-bottom: 1px solid var(--linha-cor);
+}
+
+/* .container-receita .nutrientes .tabela-nutrientes tr{
+    padding: 10px;
+    border-bottom: 1px solid var(--linha-cor);
+} */
+
+.container-receita .nutrientes .tabela-nutrientes tr td:nth-child(odd){
+    max-width: 113px;
+
+}
+.container-receita .nutrientes .tabela-nutrientes tr td:nth-child(even){
+    color: var(--subtitulo-cor);
+    font-weight: 700;
+}
+
+.container-receita .nutrientes .tabela-nutrientes tr:nth-child(4) td{
+    border-bottom: none;
+}
+
+
+
+
+
+
